@@ -1,0 +1,117 @@
+ body{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+} 
+
+header{
+  background-color:#3b6f72;
+  height:12vh ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header h2 {
+  color: aliceblue;
+}
+header img {
+  height: 50px;
+  width: 200px;
+}
+
+.search{
+  text-align: center;
+  height: 50px;
+  width: 30vw;
+  border-radius: 15px;
+}
+.icon{
+  color: #fff;
+  
+}
+.search-btn{
+  background-color: blue;
+  color: wheat;
+  cursor: pointer;
+}
+
+.display{
+  margin-top: 2.5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.details-box{
+  width: 70%;
+  background-color: aquamarine;
+}
+.show-details{
+  font-size:medium;
+  margin-top: 1.5%;
+  color: white;
+  background-color: rgb(46 111 111);
+  display: flex;
+  justify-content: space-around;
+}
+
+.box{
+  -webkit-box-shadow: 11px 17px 22px 0px rgba(152,161,159,0.67);
+-moz-box-shadow: 11px 17px 22px 0px rgba(152,161,159,0.67);
+box-shadow: 11px 17px 22px 0px rgba(152,161,159,0.67);
+  background-color: rgb(46 111 111);
+  color: white;
+  margin-bottom: 2%;
+  height: 38vh;
+  width: 250px;
+  text-align: center;
+}
+.box p{
+  margin: 0px;
+}
+
+.poster{
+  text-align: center;
+  height: 70%;
+  width: 100%;
+  border-radius: 8px;
+}
+.box-pop{
+  height: 40vh;
+}
+.poster-head{
+  min-width: 20%;
+  height: 100%;
+}
+.info{
+  margin-left: 2%;
+}
+
+.buttonClass{
+  font-size:15px;
+  font-family:Arial;
+  /* width:140px;
+  height:50px; */
+  border-width:1px;
+  cursor: pointer;
+  color:#fff;
+  border-color:#4e6096;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  text-shadow: 0px 1px 0px #283966;
+  background:linear-gradient(rgb(120, 146, 194), #476e9e);
+}
+
+.info p b {
+  color: black;
+}
+.Error{
+  text-align: center;
+  color: white;
+}
